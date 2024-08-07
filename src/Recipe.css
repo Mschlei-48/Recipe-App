@@ -1,0 +1,39 @@
+.image{
+    width:20%;
+    border-radius:7px;
+}
+.title{
+    color:white;
+    font-weight:bold;
+    font-size:45px;
+}
+.ingred,.direct{
+    color:white;
+}
+.main-contents{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recipe-buttons{
+    background-color:transparent;
+    color:white;
+    border:none;
+    border:1px white solid;
+    margin-left:20px;
+
+    
+}
+.recipe-buttons:hover,.recipe-buttons:active{
+    color:black;
+    background-color:white;
+    border:none;
+}
+.content{
+    color:white;
+    line-height: 35px;
+    width:80%;
+    margin-left:120px;
+}
