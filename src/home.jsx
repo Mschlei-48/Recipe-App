@@ -13,24 +13,6 @@ function Home(props){
         getData();
     })
 
-    
-    // useEffect(()=>{
-    //     const fetchToken=async()=>{
-    //         try{
-    //             const token = localStorage.getItem("token");
-    //             const response = await axios.get("http://localhost:3001/credentials", {
-    //                 headers: {
-    //                     Authorization: `Bearer ${token}`,
-    //                 }
-    //         });
-    //     }
-    //         catch(error){
-    //             console.error(error)
-    //             navigate("/")
-    //         }
-    //     }
-    //     fetchToken();
-    // },)
  
 
     const [recipe,setRecipe]=useState([])
@@ -87,7 +69,7 @@ function Home(props){
 
     return(
         <>
-        <button onClick={()=>navigate('/')}>LogOut</button>
+        <button onClick={()=>{localStorage.removeItem("token");localStorage.removeItem("refreshToken");navigate('/')}}>LogOut</button>
         <input id="search" type="text" placeholder="Search..." onChange={(event)=>setSearch(event.target.value)}></input>
         <div className="nav-bar">
             <button className="nav-button" onClick={()=>navigate("/home")}>Home</button>

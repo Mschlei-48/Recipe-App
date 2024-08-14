@@ -19,25 +19,10 @@ function Login(props){
 
     useEffect(() => {
         const token = localStorage.getItem('token') || localStorage.getItem('refreshToken');
-        
         if (token) {
-          // Use the token to automatically authenticate the user
-          api.get('/api', {
-            headers: {
-              Authorization: `Bearer ${token}`,
-            },
-          })
-            .then((response) => {
-              // Successful authentication, redirect to home
               console.log('User authenticated with existing token.');
               setIsAuth(true)
-            })
-            .catch((error) => {
-              console.error('Error using existing token:', error);
-              // Handle errors gracefully, e.g., clear token and redirect to login
-              localStorage.removeItem('token');
-            });
-        }
+            }
       });
         const getData=async()=>{
             try{
