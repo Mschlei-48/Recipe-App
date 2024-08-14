@@ -3,14 +3,36 @@ import axios from 'axios'
 import {useNavigate} from 'react-router-dom'
 import {useEffect} from 'react'
 import './home.css'
+import api from './api.jsx'
 
 function Home(props){
+    const [user,setUser]=useState(null)
 
     const [page,setPage]=useState('/')
     useEffect(()=>{
         getData();
     })
-   
+
+    
+    // useEffect(()=>{
+    //     const fetchToken=async()=>{
+    //         try{
+    //             const token = localStorage.getItem("token");
+    //             const response = await axios.get("http://localhost:3001/credentials", {
+    //                 headers: {
+    //                     Authorization: `Bearer ${token}`,
+    //                 }
+    //         });
+    //     }
+    //         catch(error){
+    //             console.error(error)
+    //             navigate("/")
+    //         }
+    //     }
+    //     fetchToken();
+    // },)
+ 
+
     const [recipe,setRecipe]=useState([])
     const navigate=useNavigate()
     const [data,setData]=useState([])
@@ -26,7 +48,7 @@ function Home(props){
 
     // Get the data from the API
     const getData=async ()=>{
-        const response=await axios.get("http://localhost:3030/recipes")
+        const response=await axios.get("http://localhost:3000/recipes")
         setData(response.data)
     }
     // Edit Data according to ID
@@ -65,10 +87,11 @@ function Home(props){
 
     return(
         <>
+        <button onClick={()=>navigate('/')}>LogOut</button>
         <input id="search" type="text" placeholder="Search..." onChange={(event)=>setSearch(event.target.value)}></input>
         <div className="nav-bar">
-            <button className="nav-button" onClick={()=>handleNav(page)}>Home</button>
-            <button className="nav-button" onClick={()=>{setPage('/input'),handleNav(page)}}>Give Recipe</button>
+            <button className="nav-button" onClick={()=>navigate("/home")}>Home</button>
+            <button className="nav-button" onClick={()=>navigate('/input')}>Give Recipe</button>
         </div>
         <div className="mid-content">
             <h3>Craving comfort? Heated Recipes<span className="emoji">🔥</span> is your go-to for warm, delicious meals. From hearty stews to cheesy bakes, our recipes will satisfy your cravings and leave you feeling cozy<span className="emoji">🍲</span>. Discover your new favorite dish today!<span className="emoji">🔥</span></h3>
@@ -90,28 +113,23 @@ function Home(props){
                     <input name="image" onChange={(event)=>setImg(event.target.value)}/>
                     <br></br>
                     <button onClick={()=>{setEdit(false);editData()}}>Save Changes</button>
+                    <button onClick={()=>{setEdit(false);editData()}}>Cancel</button>
                 </div>
 
 
             ):(
                 filteredData.map((item) => (
-                    <div className="data">
-                        <img 
-                            src={item.img} 
-                            alt="Nothing" 
-                            className="images" 
-                            onClick={() => { 
-                                handleNav('/recipe'); 
-                                props.handleRecipe(item); 
-                            }} 
-                        />
-                       <p className="titles">{item.title.slice(0,10)}...</p> 
-                        <br></br>
-                        <button className="action-buttons" onClick={()=>{setDeleteRow(item.id);deleteData()}}>Delete</button>
-                        <button className="action-buttons" onClick={()=>{setEditRow(item.id);setEdit(true)}}>Edit</button>
-                    </div>
+  <div className="card-body">
+  <img src={item.img} className="card-img-top" alt="..." />
+    <h5 className="card-title">{item.title}</h5>
+    {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+  
+</div>
                 ))
             )}
+
+
 
     </div>
        

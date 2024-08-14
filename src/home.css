@@ -7,7 +7,7 @@
     grid-gap:4rem;
 }
 body{
-    background-image: url("./src/assets/back.jpg");
+    /* background-image: url("./src/assets/back.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,7 +22,7 @@ body{
     
 }
 ::placeholder{
-    color:white;
+    color:black;
     font-size: 20px;
     
 }
@@ -33,16 +33,20 @@ body{
 }
 .nav-button{
     background-color:transparent;
-    color:white;
+    color:black;
     font-size:20px;  
 }
 .nav-button:hover{
     color:black;
-    background-color: white;
+    background-color: black;
     border:none;
 }
+.nav-button:active{
+    border-bottom:2px white solid;
+}
+
 .mid-content{
-    color:white;
+    color:black;
     font-family:Roboto;
     width:64%;
     margin-left:235px;
@@ -74,7 +78,7 @@ body{
     height:70px;
     width:90px;
     margin-top:5%;
-    color:white;
+    color:black;
 }
 
 
@@ -100,3 +104,11 @@ body{
       }
     ]
 } */
+
+.btn-primary {
+    background-color: orangered;
+}
+
+.box-menu {
+    display: flex;
+}
