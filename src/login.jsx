@@ -3,6 +3,7 @@ import {useNavigate} from 'react-router-dom';
 import axios from 'axios';
 import {useEffect} from 'react'
 import api from "./api.jsx"
+import './login.css'
 // import { Redirect } from 'react-router-dom';
 
 function Login(props){
@@ -52,18 +53,19 @@ function Login(props){
           }
     
     return(
-        <div>
+        <div className="main-login-content">
+            <img src="./src/assets/Logo.png" className="logo-img"/>
         <h1>Login Page</h1>
-        <div>
-            <input placeholder="Email address" onChange={(event)=>setUsername(event.target.value)}/>
+        <div className="form">
+            <input placeholder="Email address" className="login-input" onChange={(event)=>setUsername(event.target.value)}/>
             <br></br>
             <br></br>
-            <input placeholder="Password" onChange={(event)=>setPassword(event.target.value)}/>
+            <input placeholder="Password" className="login-input" onChange={(event)=>setPassword(event.target.value)}/>
         </div>
         <br></br>
         <br></br>
-        <button onClick={()=>getData()}>Login</button>
-        <button onClick={()=>navigate('/register')}>Not registered? Click here.</button>
+        <button className="login-button" onClick={()=>getData()}>Login</button>
+        <p>Not registered? <a onClick={()=>navigate('/register')}>Click here.</a></p>
         </div>
     )
 }

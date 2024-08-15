@@ -1,5 +1,6 @@
 import axios from 'axios'
 import {useState} from 'react'
+import {useNavigate} from 'react-router-dom'
 import './Recipe.css'
 
 // When someone clicks on a recipe in the homepage they should be
@@ -7,6 +8,8 @@ import './Recipe.css'
 function RecipePage(props){
     const recipe=props.recipe;
     const [content,setContent]=useState("ingred")
+    const navigate=useNavigate()
+
     const handleContent=((content)=>{
         if(content==="ingred"){
             return  <p className="content">{recipe.ingredients}</p>
@@ -17,6 +20,7 @@ function RecipePage(props){
     })
     return(
         <div>
+            <button onClick={()=>navigate("/home")} id="back-button"><span id="back-arrow">← </span>Back</button>
         <p className="title">{recipe.title}</p>
         <img src={recipe.img} className="image"/>
         <br></br>

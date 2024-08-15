@@ -1,25 +1,76 @@
 {
   "recipes": [
     {
-      "directions": "In a bowl, combine sausage, shrimp or chicken with Creole seasoning; toss to coat. In a skillet, heat oil over medium heat. Add sausage, shrimp or chicken, cooking and stirring until shrimp turn pink or chicken is no longer pink, about 3-5 minutes.In a saucepan, prepare rice mix according to package directions. In addition, add one-half of the tomatoes into the rice preparation. After 12 minutes of cooking, add remaining tomatoes, Worcestershire sauce, hot pepper sauce and parsley. Continue to cook on low, covered, until liquid is absorbed and rice is tender.Add sausage, shrimp or chicken to rice, stir until heated through. Serve.",
-      "ingredients": "1 (13.5 ounce) package Johnsonville® Andouille Dinner Sausage, cut into 1/4-inch slices.8 ounces raw shrimp, peeled and deveined or 8 ounces boneless, skinless chicken breast, cut into 1-inch pieces.2 teaspoons Cajun Creole seasoning.1 teaspoon olive oil.1 (8 ounce) package Jambalaya Rice Mix.1 (14 ounce) can diced tomatoes, drained and divided.1 teaspoon Worcestershire sauce.1 teaspoon hot pepper sauce.2 tablespoons chopped fresh parsley",
-      "title": "Jambalaya",
-      "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4467234.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
-      "id": "32c2"
-    },
-    {
       "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
       "ingredients": "1 (14 ounce) can sweetened condensed milk.2 egg yolks.3 lemons, juiced.1 (9 inch) prepared graham cracker crust",
       "title": "Lemon Icebox Pie",
       "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9000281.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
-      "id": "f92c"
+      "id": "f93h",
+      	"category":"Breakfast",
+         "description": "A refreshing and tangy Lemon Icebox Pie, perfect for a light breakfast or dessert, made with a creamy lemon filling and a crunchy graham cracker crust."
+    },
+    {
+      "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
+      "ingredients": "1 (14 ounce) can sweetened condensed milk.2 egg yolks.3 lemons, juiced.1 (9 inch) prepared graham cracker crust",
+      "title": "Full Lunch",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtt3aOrfYZ1KnQq4GK0vf9gkNBC07f72UWQ&s",
+      "id": "f92c",
+      	"category":"Lunch" ,
+        "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
+    },
+    {
+      "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
+      "ingredients": "1 (14 ounce) can sweetened condensed milk.2 egg yolks.3 lemons, juiced.1 (9 inch) prepared graham cracker crust",
+      "title": "Full Lunch",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtt3aOrfYZ1KnQq4GK0vf9gkNBC07f72UWQ&s",
+      "id": "f92o",
+      	"category":"Lunch" ,
+        "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
+    },
+    {
+      "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
+      "ingredients": "1 (14 ounce) can sweetened condensed milk.2 egg yolks.3 lemons, juiced.1 (9 inch) prepared graham cracker crust",
+      "title": "Full Lunch",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtt3aOrfYZ1KnQq4GK0vf9gkNBC07f72UWQ&s",
+      "id": "f95w",
+      	"category":"Lunch" ,
+        "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
+    },
+    {
+      "id": "0a47",
+      "directions": "1. Place the tripe in a large bowl. 2. Sprinkle coarse salt all over the tripe and add half the water. 3. Soak for about an hour, then rinse thoroughly under cold, running water. 4. Cut the tripe into bite-sized pieces and place in a large saucepan with a lid. Season with salt and pepper and add the remaining water. 5. Slowly bring it to a boil over a low heat and cook for 3 hours or until tender. Drain and set aside. 6. Heat the ghee or oil in a large pan or skillet. 7. Stir in the onion, chilli and garlic. 8. Add the masala, paprika and bay leaves. Season with salt and pepper, and stir through while cooking over low heat until the onion is cooked. 9. Add the tomatoes, stir through, and cook for 2 minutes. 10. Add the amasi or yoghurt and stir through.The sauce should be thick by now, if not, cook over low heat until reduced. 11. Add the tripe and cook for about 10 minutes in the sauce. 12. Garnish with fresh parsley and serve with a starch of your choice.  Find more South African classics here.  Extracted from Kitchen Queen by Lucia Mthiyane, published Human & Rousseau.",
+      "ingredients": "1 kg tripe coarse salt, for sprinkling and soaking 4 litres water salt and pepper, to taste 4 T ghee or vegetable oil 1 medium onion, roughly chopped 1 large red chilli, finely chopped 1 t garlic, crushed 2 t garam masala 1 t paprika 2 bay leaves 1 x 400 g can chopped tomatoes 1 cup amasi or plain yoghurt, for serving 2 t parsley, chopped, to garnish",
+      "title": "Mogodu",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQYNPlIVgEzycEi1athC-Z64s3qqmcMH8zSg&s",
+      "category":"Dinner",
+      "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner."
+    },
+    {
+      "id": "0a21",
+      "directions": "1. Place the tripe in a large bowl. 2. Sprinkle coarse salt all over the tripe and add half the water. 3. Soak for about an hour, then rinse thoroughly under cold, running water. 4. Cut the tripe into bite-sized pieces and place in a large saucepan with a lid. Season with salt and pepper and add the remaining water. 5. Slowly bring it to a boil over a low heat and cook for 3 hours or until tender. Drain and set aside. 6. Heat the ghee or oil in a large pan or skillet. 7. Stir in the onion, chilli and garlic. 8. Add the masala, paprika and bay leaves. Season with salt and pepper, and stir through while cooking over low heat until the onion is cooked. 9. Add the tomatoes, stir through, and cook for 2 minutes. 10. Add the amasi or yoghurt and stir through.The sauce should be thick by now, if not, cook over low heat until reduced. 11. Add the tripe and cook for about 10 minutes in the sauce. 12. Garnish with fresh parsley and serve with a starch of your choice.  Find more South African classics here.  Extracted from Kitchen Queen by Lucia Mthiyane, published Human & Rousseau.",
+      "ingredients": "1 kg tripe coarse salt, for sprinkling and soaking 4 litres water salt and pepper, to taste 4 T ghee or vegetable oil 1 medium onion, roughly chopped 1 large red chilli, finely chopped 1 t garlic, crushed 2 t garam masala 1 t paprika 2 bay leaves 1 x 400 g can chopped tomatoes 1 cup amasi or plain yoghurt, for serving 2 t parsley, chopped, to garnish",
+      "title": "Mogodu",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQYNPlIVgEzycEi1athC-Z64s3qqmcMH8zSg&s",
+      "category":"Dinner",
+      "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner."
     },
     {
       "id": "0a13",
       "directions": "1. Place the tripe in a large bowl. 2. Sprinkle coarse salt all over the tripe and add half the water. 3. Soak for about an hour, then rinse thoroughly under cold, running water. 4. Cut the tripe into bite-sized pieces and place in a large saucepan with a lid. Season with salt and pepper and add the remaining water. 5. Slowly bring it to a boil over a low heat and cook for 3 hours or until tender. Drain and set aside. 6. Heat the ghee or oil in a large pan or skillet. 7. Stir in the onion, chilli and garlic. 8. Add the masala, paprika and bay leaves. Season with salt and pepper, and stir through while cooking over low heat until the onion is cooked. 9. Add the tomatoes, stir through, and cook for 2 minutes. 10. Add the amasi or yoghurt and stir through.The sauce should be thick by now, if not, cook over low heat until reduced. 11. Add the tripe and cook for about 10 minutes in the sauce. 12. Garnish with fresh parsley and serve with a starch of your choice.  Find more South African classics here.  Extracted from Kitchen Queen by Lucia Mthiyane, published Human & Rousseau.",
       "ingredients": "1 kg tripe coarse salt, for sprinkling and soaking 4 litres water salt and pepper, to taste 4 T ghee or vegetable oil 1 medium onion, roughly chopped 1 large red chilli, finely chopped 1 t garlic, crushed 2 t garam masala 1 t paprika 2 bay leaves 1 x 400 g can chopped tomatoes 1 cup amasi or plain yoghurt, for serving 2 t parsley, chopped, to garnish",
-      "title": "Mogodu",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQYNPlIVgEzycEi1athC-Z64s3qqmcMH8zSg&s"
+      "title": "Burger and Chips",
+      "img": "https://domf5oio6qrcr.cloudfront.net/medialibrary/8371/bigstock-Hamburger-And-French-Fries-263887.jpg",
+      "category":"Breakfast",
+      "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner."
+    },
+    {
+      "id": "0a48",
+      "directions": "1. Place the tripe in a large bowl. 2. Sprinkle coarse salt all over the tripe and add half the water. 3. Soak for about an hour, then rinse thoroughly under cold, running water. 4. Cut the tripe into bite-sized pieces and place in a large saucepan with a lid. Season with salt and pepper and add the remaining water. 5. Slowly bring it to a boil over a low heat and cook for 3 hours or until tender. Drain and set aside. 6. Heat the ghee or oil in a large pan or skillet. 7. Stir in the onion, chilli and garlic. 8. Add the masala, paprika and bay leaves. Season with salt and pepper, and stir through while cooking over low heat until the onion is cooked. 9. Add the tomatoes, stir through, and cook for 2 minutes. 10. Add the amasi or yoghurt and stir through.The sauce should be thick by now, if not, cook over low heat until reduced. 11. Add the tripe and cook for about 10 minutes in the sauce. 12. Garnish with fresh parsley and serve with a starch of your choice.  Find more South African classics here.  Extracted from Kitchen Queen by Lucia Mthiyane, published Human & Rousseau.",
+      "ingredients": "1 kg tripe coarse salt, for sprinkling and soaking 4 litres water salt and pepper, to taste 4 T ghee or vegetable oil 1 medium onion, roughly chopped 1 large red chilli, finely chopped 1 t garlic, crushed 2 t garam masala 1 t paprika 2 bay leaves 1 x 400 g can chopped tomatoes 1 cup amasi or plain yoghurt, for serving 2 t parsley, chopped, to garnish",
+      "title": "Burger and Chips",
+      "img": "https://domf5oio6qrcr.cloudfront.net/medialibrary/8371/bigstock-Hamburger-And-French-Fries-263887.jpg",
+      "category":"Breakfast",
+      "description": "A satisfying Dinner meal, combining rich flavors and comforting ingredients to wrap up your day on a delicious note."
     }
   ]
 }

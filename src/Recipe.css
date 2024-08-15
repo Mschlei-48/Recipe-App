@@ -1,14 +1,15 @@
 .image{
-    width:20%;
+    width:680px;
+    height:300px;
     border-radius:7px;
 }
 .title{
-    color:white;
+    color:black;
     font-weight:bold;
     font-size:45px;
 }
 .ingred,.direct{
-    color:white;
+    color:black;
 }
 .main-contents{
     display:flex;
@@ -18,8 +19,8 @@
 }
 
 .recipe-buttons{
-    background-color:transparent;
-    color:white;
+    /* background-color:transparent; */
+    color:black;
     border:none;
     border:1px white solid;
     margin-left:20px;
@@ -32,8 +33,17 @@
     border:none;
 }
 .content{
-    color:white;
+    color:black;
     line-height: 35px;
     width:80%;
     margin-left:120px;
+}
+#back-button{
+    margin-right:1080px;
+    width:150px;
+    background-color: transparent;
+}
+#back-arrow{
+    font-weight:bold;
+    font-size:25px;
 }
