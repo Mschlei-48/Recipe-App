@@ -3,14 +3,23 @@
 
 .main-content{
     display:grid;
-    grid-template-columns: 38rem;
-    grid-gap:4rem;
+    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-rows:28rem 28rem 28rem;
+    margin-top:55px;
+    margin-left:64px;
 }
-body{
-    /* background-image: url("./src/assets/back.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
+#Add-Button-home{
+    width:90px;
+    height:90px; 
+    background-color:orange;
+    border-radius:80%;
+    /* margin-left:1030px; */
+    position:fixed;
+    /* z-index: 10000; */
+    bottom:38px;
+    right:38px;
 }
+
 #search{
     width:250px;
     padding:20px;
@@ -137,13 +146,6 @@ body{
 }
 #dinner:active,#dinner:focus{
     border-bottom: orange;
-}
-.main-content{
-    display:grid;
-    grid-template-columns: 20rem 20rem 20rem;
-    grid-template-rows:28rem 28rem 28rem;
-    margin-top:55px;
-    margin-left:64px;
 }
 .card{
     height:460px;

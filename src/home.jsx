@@ -72,8 +72,8 @@ function Home(props){
     // Also to ensure that the search is not restricted by case sensitivity, we change everything to lower case before comparing
     // const filteredData = search ? data.filter(item => item.title.toLowerCase().includes(search.toLowerCase())) : data;
     
-    // console.log(category)
-    // console.log(filteredData.length)
+    console.log(category)
+    console.log(filteredData.length)
     const handleCategories = () => {
         let filtered = data;
     
@@ -91,6 +91,9 @@ function Home(props){
     };
     
 
+    const handleAddRecipe=(()=>{
+        
+    })
     // console.log(filteredData.length)
     // console.log(data)
     return(
@@ -128,11 +131,12 @@ function Home(props){
                     <input name="image" onChange={(event)=>setImg(event.target.value)}/>
                     <br></br>
                     <button onClick={()=>{setEdit(false);editData()}}>Save Changes</button>
-                    <button onClick={()=>{setEdit(false);editData()}}>Cancel</button>
+                    <button onClick={()=>{setEdit(false)}}>Cancel</button>
                 </div>
 
 
             ):(
+                
                 filteredData.map((item) => (
             <div className="card" style={{width: "18rem"}} key={item.id}>
                     <img src={item.img} className="card-img-top" alt="..."/>
@@ -144,9 +148,12 @@ function Home(props){
                 </div>
             </div>
                 ))
-            )}
+                
+                )}
     </div>
+    <button id="Add-Button-home"><span>➕</span></button>
         </div>
+        
     )
 }
 export default Home;

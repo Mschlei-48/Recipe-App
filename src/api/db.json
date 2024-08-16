@@ -1,31 +1,14 @@
 {
   "recipes": [
-    {
-      "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
-      "ingredients": "1 (14 ounce) can sweetened condensed milk.2 egg yolks.3 lemons, juiced.1 (9 inch) prepared graham cracker crust",
-      "title": "Lemon Icebox Pie",
-      "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9000281.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
-      "id": "f93h",
-      	"category":"Breakfast",
-         "description": "A refreshing and tangy Lemon Icebox Pie, perfect for a light breakfast or dessert, made with a creamy lemon filling and a crunchy graham cracker crust."
-    },
-    {
-      "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
-      "ingredients": "1 (14 ounce) can sweetened condensed milk.2 egg yolks.3 lemons, juiced.1 (9 inch) prepared graham cracker crust",
-      "title": "Full Lunch",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtt3aOrfYZ1KnQq4GK0vf9gkNBC07f72UWQ&s",
-      "id": "f92c",
-      	"category":"Lunch" ,
-        "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
-    },
+
     {
       "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
       "ingredients": "1 (14 ounce) can sweetened condensed milk.2 egg yolks.3 lemons, juiced.1 (9 inch) prepared graham cracker crust",
       "title": "Full Lunch",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtt3aOrfYZ1KnQq4GK0vf9gkNBC07f72UWQ&s",
       "id": "f92o",
-      	"category":"Lunch" ,
-        "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
+      "category": "Lunch",
+      "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
     },
     {
       "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
@@ -33,8 +16,8 @@
       "title": "Full Lunch",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtt3aOrfYZ1KnQq4GK0vf9gkNBC07f72UWQ&s",
       "id": "f95w",
-      	"category":"Lunch" ,
-        "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
+      "category": "Lunch",
+      "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
     },
     {
       "id": "0a47",
@@ -42,7 +25,7 @@
       "ingredients": "1 kg tripe coarse salt, for sprinkling and soaking 4 litres water salt and pepper, to taste 4 T ghee or vegetable oil 1 medium onion, roughly chopped 1 large red chilli, finely chopped 1 t garlic, crushed 2 t garam masala 1 t paprika 2 bay leaves 1 x 400 g can chopped tomatoes 1 cup amasi or plain yoghurt, for serving 2 t parsley, chopped, to garnish",
       "title": "Mogodu",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQYNPlIVgEzycEi1athC-Z64s3qqmcMH8zSg&s",
-      "category":"Dinner",
+      "category": "Dinner",
       "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner."
     },
     {
@@ -51,7 +34,7 @@
       "ingredients": "1 kg tripe coarse salt, for sprinkling and soaking 4 litres water salt and pepper, to taste 4 T ghee or vegetable oil 1 medium onion, roughly chopped 1 large red chilli, finely chopped 1 t garlic, crushed 2 t garam masala 1 t paprika 2 bay leaves 1 x 400 g can chopped tomatoes 1 cup amasi or plain yoghurt, for serving 2 t parsley, chopped, to garnish",
       "title": "Mogodu",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQYNPlIVgEzycEi1athC-Z64s3qqmcMH8zSg&s",
-      "category":"Dinner",
+      "category": "Dinner",
       "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner."
     },
     {
@@ -60,7 +43,7 @@
       "ingredients": "1 kg tripe coarse salt, for sprinkling and soaking 4 litres water salt and pepper, to taste 4 T ghee or vegetable oil 1 medium onion, roughly chopped 1 large red chilli, finely chopped 1 t garlic, crushed 2 t garam masala 1 t paprika 2 bay leaves 1 x 400 g can chopped tomatoes 1 cup amasi or plain yoghurt, for serving 2 t parsley, chopped, to garnish",
       "title": "Burger and Chips",
       "img": "https://domf5oio6qrcr.cloudfront.net/medialibrary/8371/bigstock-Hamburger-And-French-Fries-263887.jpg",
-      "category":"Breakfast",
+      "category": "Breakfast",
       "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner."
     },
     {
@@ -69,7 +52,7 @@
       "ingredients": "1 kg tripe coarse salt, for sprinkling and soaking 4 litres water salt and pepper, to taste 4 T ghee or vegetable oil 1 medium onion, roughly chopped 1 large red chilli, finely chopped 1 t garlic, crushed 2 t garam masala 1 t paprika 2 bay leaves 1 x 400 g can chopped tomatoes 1 cup amasi or plain yoghurt, for serving 2 t parsley, chopped, to garnish",
       "title": "Burger and Chips",
       "img": "https://domf5oio6qrcr.cloudfront.net/medialibrary/8371/bigstock-Hamburger-And-French-Fries-263887.jpg",
-      "category":"Breakfast",
+      "category": "Breakfast",
       "description": "A satisfying Dinner meal, combining rich flavors and comforting ingredients to wrap up your day on a delicious note."
     }
   ]
