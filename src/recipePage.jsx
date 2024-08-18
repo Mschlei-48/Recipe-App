@@ -22,7 +22,24 @@ function RecipePage(props){
         <div>
             <button onClick={()=>navigate("/home")} id="back-button"><span id="back-arrow">← </span>Back</button>
         <p className="title">{recipe.title}</p>
+        <br></br>
+        <p className="description">{recipe.description}</p>
         <img src={recipe.img} className="image"/>
+        <br></br>
+        <br></br>
+        <div className="extra-recipe-details">
+            <ul>
+                <li><p className="labels">Prep Time:</p>
+                    <li>{recipe.prepTime}</li>
+                </li>
+                <li><p className="labels">Cook Time:</p>
+                    <li>{recipe.cookTime}</li>
+                </li>
+                <li><p className="labels">Serving:</p>
+                    <li> {recipe.serving}</li>
+                </li>
+            </ul>           
+        </div>
         <br></br>
         <br></br>
         <div className="main-contents">

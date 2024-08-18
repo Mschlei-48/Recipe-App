@@ -1,15 +1,5 @@
 {
   "recipes": [
-
-    {
-      "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
-      "ingredients": "1 (14 ounce) can sweetened condensed milk.2 egg yolks.3 lemons, juiced.1 (9 inch) prepared graham cracker crust",
-      "title": "Full Lunch",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtt3aOrfYZ1KnQq4GK0vf9gkNBC07f72UWQ&s",
-      "id": "f92o",
-      "category": "Lunch",
-      "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
-    },
     {
       "directions": "Beat condensed milk and egg yolks in a bowl until smooth. Add lemon juice and stir until the mixture begins to thicken; pour into prepared pie crust.Refrigerate pie until set in the middle, 6 hours to overnight.",
       "ingredients": "1 (14 ounce) can sweetened condensed milk.2 egg yolks.3 lemons, juiced.1 (9 inch) prepared graham cracker crust",
@@ -17,16 +7,22 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtt3aOrfYZ1KnQq4GK0vf9gkNBC07f72UWQ&s",
       "id": "f95w",
       "category": "Lunch",
-      "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day."
+      "description": "A hearty and satisfying Full Lunch, combining rich flavors and textures to keep you energized throughout the day.",
+      "prepTime": 25,
+      "serving": 4,
+      "cookTime": 45
     },
     {
-      "id": "0a47",
-      "directions": "1. Place the tripe in a large bowl. 2. Sprinkle coarse salt all over the tripe and add half the water. 3. Soak for about an hour, then rinse thoroughly under cold, running water. 4. Cut the tripe into bite-sized pieces and place in a large saucepan with a lid. Season with salt and pepper and add the remaining water. 5. Slowly bring it to a boil over a low heat and cook for 3 hours or until tender. Drain and set aside. 6. Heat the ghee or oil in a large pan or skillet. 7. Stir in the onion, chilli and garlic. 8. Add the masala, paprika and bay leaves. Season with salt and pepper, and stir through while cooking over low heat until the onion is cooked. 9. Add the tomatoes, stir through, and cook for 2 minutes. 10. Add the amasi or yoghurt and stir through.The sauce should be thick by now, if not, cook over low heat until reduced. 11. Add the tripe and cook for about 10 minutes in the sauce. 12. Garnish with fresh parsley and serve with a starch of your choice.  Find more South African classics here.  Extracted from Kitchen Queen by Lucia Mthiyane, published Human & Rousseau.",
-      "ingredients": "1 kg tripe coarse salt, for sprinkling and soaking 4 litres water salt and pepper, to taste 4 T ghee or vegetable oil 1 medium onion, roughly chopped 1 large red chilli, finely chopped 1 t garlic, crushed 2 t garam masala 1 t paprika 2 bay leaves 1 x 400 g can chopped tomatoes 1 cup amasi or plain yoghurt, for serving 2 t parsley, chopped, to garnish",
-      "title": "Mogodu",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQYNPlIVgEzycEi1athC-Z64s3qqmcMH8zSg&s",
-      "category": "Dinner",
-      "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner."
+      "directions": "Place milk, vanilla extract, and butter in a saucepan. Cook and stir over medium heat until simmering; remove from heat before it comes to a boil.  Whisk eggs, sugar, and cornstarch together in a bowl until sugar dissolves.  Set the saucepan back over low heat. Pour in egg mixture slowly, whisking constantly, until custard thickens enough to coat the bottom of a spoon, 5 to 10 minutes.  Serve warm or transfer custard into a large bowl, cover, and allow to cool before chilling.",
+      "ingredients": "4 cups whole milk  1 tablespoon vanilla extract  1 teaspoon butter  4 eggs  ½ cup white sugar  3 tablespoons cornstarch",
+      "title": "Custard",
+      "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F7c582bc27fe87807de8cb2c927c5c53a%2F165686299620220703_112520.jpg&q=60&c=sc&poi=auto&orient=true&h=512",
+      "category": "Breakfast",
+      "prepTime": "2",
+      "cookTime": "25",
+      "serving": "7",
+      "description": "This custard recipe is a combination of a few different recipes I've tried. It's not too rich or too sweet as many egg custards can be. Can be served warm immediately or cold.",
+      "id": "0a47"
     },
     {
       "id": "0a21",
@@ -35,7 +31,10 @@
       "title": "Mogodu",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQYNPlIVgEzycEi1athC-Z64s3qqmcMH8zSg&s",
       "category": "Dinner",
-      "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner."
+      "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner.",
+      "prepTime": 25,
+      "serving": 4,
+      "cookTime": 45
     },
     {
       "id": "0a13",
@@ -44,7 +43,10 @@
       "title": "Burger and Chips",
       "img": "https://domf5oio6qrcr.cloudfront.net/medialibrary/8371/bigstock-Hamburger-And-French-Fries-263887.jpg",
       "category": "Breakfast",
-      "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner."
+      "description": "Mogodu is a traditional South African dish made from tender tripe cooked in a richly spiced tomato sauce, perfect for a comforting and hearty dinner.",
+      "prepTime": 25,
+      "serving": 4,
+      "cookTime": 45
     },
     {
       "id": "0a48",
@@ -53,7 +55,22 @@
       "title": "Burger and Chips",
       "img": "https://domf5oio6qrcr.cloudfront.net/medialibrary/8371/bigstock-Hamburger-And-French-Fries-263887.jpg",
       "category": "Breakfast",
-      "description": "A satisfying Dinner meal, combining rich flavors and comforting ingredients to wrap up your day on a delicious note."
+      "description": "A satisfying Dinner meal, combining rich flavors and comforting ingredients to wrap up your day on a delicious note.",
+      "prepTime": 25,
+      "serving": 4,
+      "cookTime": 45
+    },
+    {
+      "id": "2cb5",
+      "directions": "1. Place the tripe in a large bowl. 2. Sprinkle coarse salt all over the tripe and add half the water. 3. Soak for about an hour, then rinse thoroughly under cold, running water. 4. Cut the tripe into bite-sized pieces and place in a large saucepan with a lid. Season with salt and pepper and add the remaining water. 5. Slowly bring it to a boil over a low heat and cook for 3 hours or until tender. Drain and set aside. 6. Heat the ghee or oil in a large pan or skillet. 7. Stir in the onion, chilli and garlic. 8. Add the masala, paprika and bay leaves. Season with salt and pepper, and stir through while cooking over low heat until the onion is cooked. 9. Add the tomatoes, stir through, and cook for 2 minutes. 10. Add the amasi or yoghurt and stir through.The sauce should be thick by now, if not, cook over low heat until reduced. 11. Add the tripe and cook for about 10 minutes in the sauce. 12. Garnish with fresh parsley and serve with a starch of your choice.  Find more South African classics here.  Extracted f",
+      "ingredients": "1 t salt  400 g maize meal  1 litre full-cream amasi ",
+      "title": "Umphokoqo",
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtcaU-LCBARBmfAujMZ5rfjNgBEB90dU0_JskOuqYvc8Wv-GgY",
+      "prepTime": "15",
+      "cookTime": "45",
+      "serving": "8",
+      "category": "Breakfast",
+      "description": "This is the perfect meal for a hot summer’s day and mine and my mom’s favourite prelude to a late afternoon braai. Some people enjoy this simple dish with a sprinkle of sugar, although it differs depending on where you are from."
     }
   ]
 }

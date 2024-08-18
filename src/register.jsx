@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
-
+import './register.css'
 
 function Register(){
 
@@ -45,13 +45,19 @@ function Register(){
 
     }
     return (
-        <>
-        <h1>RegisterPage</h1>
+        <div className="reg-content">
+        <img src="./src/assets/Logo.png" className="reg-logo"/>
+        <h1>Register</h1>
+        <br></br>
         <input type="email" placeholder="Email address" onChange={(event)=>setUsername(event.target.value)}/>
+        <br></br>
+        <br></br>
         <input type="password" placeholder="Password" onChange={(event)=>setPassword(event.target.value)}/>
-        <button onClick={()=>regData()}>Register</button>
+        <br></br>
+        <br></br>
+        <button className="register-submit-button" onClick={()=>regData()}>Register</button>
         <p>Are you already a user? <a onClick={()=>navigate("/")}>Login</a></p>
-        </>
+        </div>
     )
 
 }

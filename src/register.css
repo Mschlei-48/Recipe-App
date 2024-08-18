@@ -1,0 +1,11 @@
+.reg-logo{
+    height:180px;
+    border-radius: 88px;
+}
+.reg-content{
+    border:2px solid black;
+    padding:50px;
+}
+.register-submit-button{
+    background-color: orange;
+}

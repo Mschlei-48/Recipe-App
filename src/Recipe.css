@@ -1,7 +1,28 @@
 .image{
-    width:680px;
+    width:400px;
     height:300px;
-    border-radius:7px;
+    /* border-radius:7px; */
+}
+.extra-recipe-details{
+    border-top:16px orange solid;
+    border-bottom:1px black solid;
+    border-left:1px black solid;
+    border-right:1px black solid;
+    width:50%;
+    margin-left:280px;
+    border-radius: 10px;
+}
+.description{
+    width:38%;
+    margin-left:380px;
+    font-size:20px;
+}
+ul{
+    list-style: none;
+}
+.labels{
+    font-weight:bold;
+    font-size:15px;
 }
 .title{
     color:black;
