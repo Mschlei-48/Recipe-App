@@ -14,6 +14,7 @@ function Login(props){
     const [passwords,setPasswords]=useState([])
     const [isAuth,setIsAuth]=useState(false)
 
+
     const handleLocalStorageAuth=(()=>{
         // return props.handleLocalStorageAuth
     })
@@ -30,10 +31,16 @@ function Login(props){
                 const response=await axios.get("http://localhost:3001/credentials")
                 // alert("Data Fetched Successfully")
                const dat=response.data.find((record)=>record.username===username)
-               localStorage.setItem("token",dat.username)
-               localStorage.setItem("refreshToken",dat.password)
+
                if(dat!==undefined && dat.password===password){
-                    navigate('/home')
+
+                
+
+
+                localStorage.setItem("token",dat.username)
+                localStorage.setItem("refreshToken",dat.password)
+                navigate('/home')
+                    
                }
                else if(dat!==undefined && dat.password!==password){
                 alert("Please enter correct password")

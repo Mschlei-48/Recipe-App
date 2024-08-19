@@ -176,6 +176,7 @@ function Home(props){
         <div className="nav-bar">
             <img src="./src/assets/Logo.png" className="logo"/>
             <button className="home-button" onClick={()=>navigate("/home")}>Home</button>
+            <button className="profile-button" onClick={()=>navigate("/profile")}>Profile</button>
             <button className="logout-button" onClick={()=>{localStorage.removeItem("token");localStorage.removeItem("refreshToken");navigate('/')}}>LogOut</button>
         </div>
         <div className="mid-content">

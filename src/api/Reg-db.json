@@ -3,32 +3,72 @@
     {
       "username": "mishimakade48@gmail.com",
       "password": "Mishi48",
-      "id": "ea34"
+      "age":24,
+      "gender":"Female",
+      "profession":"Chef",
+      "id": "ea34",
+      "phoneNumber":27738947110,
+      "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
       "id": "b637",
       "username": "yaya@gmail.com",
-      "password": "YayaYayas"
+      "age":34,
+      "gender":"Female",
+      "profession":"Teacher",
+      "password": "YayaYayas",
+      "phone-number":27738947110,
+      "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
       "id": "15d7",
       "username": "asavela@gmail.com",
-      "password": "Asavela48"
+      "age":55,
+      "gender":"Male",
+      "profession":"Lecturer",
+      "password": "Asavela48",
+      "phone-number":27738947110,
+      "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
       "id": "9df3",
       "username": "vava@gmail.com",
-      "password": "vavavavas@gmail.com"
+      "age":74,
+      "gender":"Male",
+      "profession":"Chef",
+      "password": "vavavavas@gmail.com",
+      "phone-number":27738947110,
+      "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
       "id": "f7ad",
       "username": "valaza@gmail.com",
-      "password": "valazavalaza"
+      "age":12,
+      "gender":"Female",
+      "profession":"Chef",
+      "password": "valazavalaza",
+      "phone-number":27738947110,
+      "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
       "id": "a365",
       "username": "mama@gmail.com",
-      "password": "Mamamamas"
+      "age":24,
+      "gender":"Male",
+      "profession":"Nurse",
+      "password": "Mamamamas",
+      "phone-number":27738947110,
+      "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
+    },
+    {
+      "age":24,
+      "id":"47as",
+      "password":"MamaMiaMama",
+      "gender":"Female",
+      "profession":"Doctor",
+      "username":"mamamiasd@gmail.com",
+      "phone-number":27738947110,
+      "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     }
   ]
 }

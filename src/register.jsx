@@ -3,11 +3,12 @@ import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
 import './register.css'
 
-function Register(){
+function Register(props){
 
     const [username,setUsername]=useState()
     const [password,setPassword]=useState()
     const navigate=useNavigate()
+
     const regData=async()=>{
         const email_pattern=/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
         const response=await axios.get("http://localhost:3001/credentials")
@@ -23,10 +24,12 @@ function Register(){
                         "username":username,
                         "password":password
                     })
-                    const {token,refreshToken}=response.data
+                    // const {token,refreshToken}=response.data
                     localStorage.setItem("token",username)
                     localStorage.setItem("refreshToken",password)
+                    
                     alert("Data Added successfully")
+                    
                     navigate('/home')
                 }
                 catch(error){

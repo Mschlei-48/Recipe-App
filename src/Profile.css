@@ -1,0 +1,46 @@
+.back-button-profile-container{
+    margin-right:1080px;
+    
+    /* margin-bottom:270px; */
+}
+.back-button-profile:active{
+    border:none;
+    
+}
+.back-button-profile{
+    background-color:orange;
+}
+span#profile-pic{
+    font-size:75px;
+    /* background-color: rgb(211, 209, 209); */
+    /* padding:70px; */
+    /* padding-bottom:20px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-left:40px; */
+    border-radius:509px;
+    
+
+}
+.profile-info{
+ border:2px black solid;
+ width:60%;
+ margin-left:250px;
+ padding-bottom:120px;
+}
+#age,#gender{
+    margin-right:59px;
+}
+#profession{
+    margin-right:-4px;
+}
+#number{
+    margin-right:-48px;
+}
+/* #gender{
+    margin-right:59px;
+} */
+.headings{
+    font-weight:bold;
+    font-size:20px;
+}

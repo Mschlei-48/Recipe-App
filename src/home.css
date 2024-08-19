@@ -42,14 +42,14 @@
     margin-left:492px;
 }
 #search::placeholder{
-    color:black
+    color:grey;
 }
 #search:hover{
     border:none;
     border-bottom:solid 2px orange;
 }
 ::placeholder{
-    color:black;
+    color:grey;
     font-size: 20px;
     
 }
@@ -130,7 +130,14 @@
     width:150px;
     border-radius:17px;
     background-color: rgb(6, 6, 64);
-    
+}
+.profile-button{
+    height:70px;
+    width:150px;
+    margin-top:25px;
+    margin-right:45px;
+    background-color:orange;
+    border-radius:17px;
 }
 .logo{
     width:15%;
@@ -164,10 +171,12 @@
     margin-left: 4px;
 }
 .home-input::placeholder{
-    color:black
+    color:grey;
 }
 .home-input{
     border:2px #000000 solid;
+    padding:7px;
+    width:280px;
     /* margin-left:40%; */
 }
 .dropdown,.home-input,.add-recipe{
