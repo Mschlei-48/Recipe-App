@@ -34,31 +34,39 @@ function Profile(props){
                 <br></br>
                 <p>{profile[0].bio}</p>
                 <br></br>
+                <ul className='profile-list'>
+                <li> 
+                    <span className="emoji">🦰</span>
+                        <span id="experience" className="headings">Full Name</span>
+                        <p>{profile[0].name}</p>
+                    </li>
+                    <li><span className="emoji">📧</span>
+                        <span className="headings">Username</span>
+                        <p>{profile[0].username}</p>
+                    </li>
+                    <li><span className="emoji">🎂</span>
+                        <span id="age" className="headings">Age</span>
+                        <p id="Age-value">{profile[0].age}</p>
+                        
+                    </li>
+                    <li><span className="emoji">♂</span>
+                        <span id="gender" className="headings">Gender</span> 
+                        <p>{profile[0].gender}</p>
+                    </li>
+                    <li><span className="emoji">💼</span>
+                       <span id="profession" className="headings">Profession</span>
+                        <p>{profile[0].profession}</p>
+                        
+                    </li>
+                    <li> 
+                    <span className="emoji">📞</span>
+                        <span id="number" className="headings">Number</span>
+                        <p>{profile[0].phoneNumber}</p>
+                    </li>
+
+                </ul>
                 
-                <span className="headings"><span className="emoji">📧</span>Username :</span>
                 <br></br>
-                <span>{profile[0].username}</span>
-                <br></br>
-                <br></br>
-                <span id="age" className="headings"><span className="emoji">🎂</span>Age:</span>
-                <br></br>
-                <span id="Age-value">{profile[0].age}</span>
-                <br></br>
-                <br></br>
-                <span id="gender" className="headings"><span className="emoji">♂</span>Gender:</span>
-                <br></br>
-                <span>{profile[0].gender}</span>
-                <br></br>
-                <br></br>
-                <span id="profession" className="headings"><span className="emoji">💼</span>Profession</span>
-                <br></br>
-                <span>{profile[0].profession}</span>
-                <br></br>
-                <br></br>
-                <span id="number" className="headings"><span className="emoji">📞</span>Phone Number:</span>
-                <br></br>
-                <span>{profile[0].phoneNumber}</span>
-               <br></br>
             </div>
         
         

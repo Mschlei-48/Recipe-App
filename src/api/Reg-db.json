@@ -8,7 +8,8 @@
       "profession":"Chef",
       "id": "ea34",
       "phoneNumber":27738947110,
-      "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
+      "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking.",
+      "name":"Mishi Makade"
     },
     {
       "id": "b637",
@@ -18,6 +19,7 @@
       "profession":"Teacher",
       "password": "YayaYayas",
       "phone-number":27738947110,
+      "name":"Mishi Makade",
       "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
@@ -28,6 +30,7 @@
       "profession":"Lecturer",
       "password": "Asavela48",
       "phone-number":27738947110,
+      "name":"Mishi Makade",
       "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
@@ -38,6 +41,7 @@
       "profession":"Chef",
       "password": "vavavavas@gmail.com",
       "phone-number":27738947110,
+      "name":"Mishi Makade",
       "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
@@ -48,6 +52,7 @@
       "profession":"Chef",
       "password": "valazavalaza",
       "phone-number":27738947110,
+      "name":"Mishi Makade",
       "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
@@ -58,6 +63,7 @@
       "profession":"Nurse",
       "password": "Mamamamas",
       "phone-number":27738947110,
+     "name":"Mishi Makade",
       "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     },
     {
@@ -68,6 +74,7 @@
       "profession":"Doctor",
       "username":"mamamiasd@gmail.com",
       "phone-number":27738947110,
+      "name":"Mishi Makade",
       "bio":"Culinary enthusiast and recipe developer with a love for crafting delicious, innovative dishes. With a keen eye for detail and a passion for flavor, she transforms everyday ingredients into memorable meals. Jane shares her creations through her blog, where she inspires others to explore the joy of cooking."
     }
   ]

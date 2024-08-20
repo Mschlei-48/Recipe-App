@@ -1,7 +1,60 @@
+@media(max-width:480px){
+    .back-button-profile-container{
+        margin-right:90%;
+    }
+    .back-button-profile:active{
+        border:none;
+    }
+    .back-button-profile{
+        background-color:orange;
+    }
+    span#profile-pic{
+        font-size:75px;
+        /* background-color: rgb(211, 209, 209); */
+        /* padding:70px; */
+        /* padding-bottom:20px;
+        padding-right:40px;
+        padding-top:20px;
+        padding-left:40px; */
+        border-radius:509px;
+        
+    
+    }
+    .profile-info{
+     border:2px black solid;
+     width:60%;
+     margin-left:200px;
+     padding-bottom:10px;
+     /* padding: 15px; */
+    }
+    /* #age,#gender{
+        margin-right:59px;
+    } */
+    #profession{
+        margin-right:-4px;
+    }
+    #number{
+        margin-right:-48px;
+    }
+    /* #gender{
+        margin-right:59px;
+    } */
+    .headings{
+        font-weight:bold;
+        font-size:20px;
+    }
+    .profile-list{
+        columns: 2;
+        padding:22px;
+        column-gap: 27%;
+        text-align: justify;
+        margin-left:4%;
+    } 
+}
+
+@media(max-width:2590px) and (min-width:768px){
 .back-button-profile-container{
     margin-right:1080px;
-    
-    /* margin-bottom:270px; */
 }
 .back-button-profile:active{
     border:none;
@@ -26,7 +79,8 @@ span#profile-pic{
  border:2px black solid;
  width:60%;
  margin-left:250px;
- padding-bottom:120px;
+ padding-bottom:10px;
+ /* padding: 15px; */
 }
 #age,#gender{
     margin-right:59px;
@@ -43,4 +97,66 @@ span#profile-pic{
 .headings{
     font-weight:bold;
     font-size:20px;
+}
+.profile-list{
+    columns: 2;
+    padding:22px;
+    text-align: justify;
+    margin-left:104px;
+}
+}
+@media(max-width:768px) and (min-width:480px) {
+   
+    .back-button-profile-container{
+        margin-right:90%;
+    }
+    .back-button-profile:active{
+        border:none;
+        
+    }
+    .back-button-profile{
+        background-color:orange;
+    }
+    span#profile-pic{
+        font-size:75px;
+        /* background-color: rgb(211, 209, 209); */
+        /* padding:70px; */
+        /* padding-bottom:20px;
+        padding-right:40px;
+        padding-top:20px;
+        padding-left:40px; */
+        border-radius:509px;
+        
+    
+    }
+    .profile-info{
+     border:2px black solid;
+     width:60%;
+     margin-left:200px;
+     padding-bottom:10px;
+     /* padding: 15px; */
+    }
+    /* #age,#gender{
+        margin-right:59px;
+    } */
+    #profession{
+        margin-right:-4px;
+    }
+    #number{
+        margin-right:-48px;
+    }
+    /* #gender{
+        margin-right:59px;
+    } */
+    .headings{
+        font-weight:bold;
+        font-size:20px;
+    }
+    .profile-list{
+        columns: 2;
+        padding:22px;
+        column-gap: 27%;
+        text-align: justify;
+        margin-left:4%;
+    }
 }

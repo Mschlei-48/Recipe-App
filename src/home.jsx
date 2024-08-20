@@ -183,10 +183,10 @@ function Home(props){
             <h3>Craving comfort? Heated Recipes<span className="emoji">🔥</span> is your go-to for warm, delicious meals. From hearty stews to cheesy bakes, our recipes will satisfy your cravings and leave you feeling cozy<span className="emoji">🍲</span>. Discover your new favorite dish today!<span className="emoji">🔥</span></h3>
         </div>
         <div className="categories">
-            <button className="category" onClick={()=>setCategory("All")}>All</button>
-            <button className="category" id="breakfast" onClick={()=>setCategory("Breakfast")}>Breakfast</button>
-            <button className="category" id="lunch" onClick={()=>setCategory("Lunch")}>Lunch</button>
-            <button className="category" id="dinner" onClick={()=>setCategory("Dinner")}>Dinner</button>
+            <button className="category" id="all"onClick={()=>setCategory("All")} tabIndex="1">All</button>
+            <button className="category" id="breakfast" onClick={()=>setCategory("Breakfast")} tabIndex="2">Breakfast</button>
+            <button className="category" id="lunch" onClick={()=>setCategory("Lunch")} tabIndex="3">Lunch</button>
+            <button className="category" id="dinner" onClick={()=>setCategory("Dinner")} tabIndex="4">Dinner</button>
             <input id="search" type="text" placeholder="Search..." onChange={(event)=>setSearch(event.target.value)}></input>
         </div>
 
