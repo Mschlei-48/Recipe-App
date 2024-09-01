@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
-import './register.css'
+import './login.css'
 
 function Register(props){
 
@@ -48,17 +48,17 @@ function Register(props){
 
     }
     return (
-        <div className="reg-content">
-        <img src="./src/assets/Logo.png" className="reg-logo"/>
+        <div className="main-login-content">
+        <img src="./src/assets/Logo.png" className="logo-img"/>
         <h1>Register</h1>
         <br></br>
-        <input type="email" placeholder="Email address" onChange={(event)=>setUsername(event.target.value)}/>
+        <input type="email" placeholder="Email address" onChange={(event)=>setUsername(event.target.value)} className="login-input"/>
         <br></br>
         <br></br>
-        <input type="password" placeholder="Password" onChange={(event)=>setPassword(event.target.value)}/>
+        <input type="password" placeholder="Password" onChange={(event)=>setPassword(event.target.value)} className="login-input"/>
         <br></br>
         <br></br>
-        <button className="register-submit-button" onClick={()=>regData()}>Register</button>
+        <button className="login-button" onClick={()=>regData()}>Register</button>
         <p>Are you already a user? <a onClick={()=>navigate("/")}>Login</a></p>
         </div>
     )

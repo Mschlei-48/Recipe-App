@@ -20,6 +20,26 @@ function Home(props){
         handleCategories()
     })
  
+    const handleAll=(()=>{
+        if(category==="All"){
+            return {backgroundColor:"orange",border:"none"}
+        }
+    })
+    const handleBreakfast=(()=>{
+        if(category==="Breakfast"){
+            return {backgroundColor:"orange",border:"none"}
+        }
+    })
+    const handleLunch=(()=>{
+        if(category==="Lunch"){
+            return {backgroundColor:"orange",border:"none"}
+        }
+    })
+    const handleDinner=(()=>{
+        if(category==="Dinner"){
+            return {backgroundColor:"orange",border:"none"}
+        }
+    })
 
     const [recipe,setRecipe]=useState([])
     const navigate=useNavigate()
@@ -183,10 +203,10 @@ function Home(props){
             <h3>Craving comfort? Heated Recipes<span className="emoji">🔥</span> is your go-to for warm, delicious meals. From hearty stews to cheesy bakes, our recipes will satisfy your cravings and leave you feeling cozy<span className="emoji">🍲</span>. Discover your new favorite dish today!<span className="emoji">🔥</span></h3>
         </div>
         <div className="categories">
-            <button className="category" id="all"onClick={()=>setCategory("All")} tabIndex="1">All</button>
-            <button className="category" id="breakfast" onClick={()=>setCategory("Breakfast")} tabIndex="2">Breakfast</button>
-            <button className="category" id="lunch" onClick={()=>setCategory("Lunch")} tabIndex="3">Lunch</button>
-            <button className="category" id="dinner" onClick={()=>setCategory("Dinner")} tabIndex="4">Dinner</button>
+            <button className="category" id="all"onClick={()=>setCategory("All")} tabIndex="1" style={handleAll()}>All</button>
+            <button className="category" id="breakfast" onClick={()=>setCategory("Breakfast")} tabIndex="2" style={handleBreakfast()}>Breakfast</button>
+            <button className="category" id="lunch" onClick={()=>setCategory("Lunch")} tabIndex="3" style={handleLunch()}>Lunch</button>
+            <button className="category" id="dinner" onClick={()=>setCategory("Dinner")} tabIndex="4" style={handleDinner()}>Dinner</button>
             <input id="search" type="text" placeholder="Search..." onChange={(event)=>setSearch(event.target.value)}></input>
         </div>
 

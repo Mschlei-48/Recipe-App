@@ -34,9 +34,6 @@ function Login(props){
 
                if(dat!==undefined && dat.password===password){
 
-                
-
-
                 localStorage.setItem("token",dat.username)
                 localStorage.setItem("refreshToken",dat.password)
                 navigate('/home')

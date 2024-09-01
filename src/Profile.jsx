@@ -6,23 +6,26 @@ import './Profile.css'
 
 function Profile(props){
     const username=localStorage.getItem("token")
+    console.log(username)
     const [profile,setProfile]=useState([])
     const navigate=useNavigate()
 
     useEffect(()=>{
         getProfile()
-    })
+    },[username])
 
     const getProfile=async()=>{
         try{
             const response=await axios.get(`http://localhost:3001/credentials?username=${username}`)
             setProfile(response.data)
+            cobsole.log("respobse:",response)
+            
         }
         catch(error){
             console.error("Error getting data:",error)
         }
     }
-    console.log(profile)
+    // console.log(profile)
     return(
         <div>
             <div className="back-button-profile-container">
